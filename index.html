@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thakur Kanaban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="board-container">
+
+        <div class="board">
+            <div class="title-heading">
+                <div class="head">
+                    <div class="circle"></div>
+                    <h3>To Do</h3>
+                </div>
+                <div class="counter todo-count">3</div>
+            </div>
+
+            <p class="task" draggable="true">Task 1</p>
+            <p class="task" draggable="true">Task 2</p>
+            <p class="task" draggable="true">Task 3</p>
+
+            <!-- <div class="add-item-container" board="todo">
+                <div class="input-section todo-section">
+                  <input class="input-field todo-input" type="text" placeholder="Start typing to create an draft item">
+                  <button class="create-task-btn" board="todo">+</button>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="board">
+            <div class="title-heading">
+                <div class="head">
+                    <div class="circle"></div>
+                    <h3>In Progress</h3>
+                </div>
+                <div class="counter inprogress-count">3</div>
+            </div>
+            <p class="task" draggable="true">Task 1</p>
+            <p class="task" draggable="true">Task 2</p>
+            <p class="task" draggable="true">Task 3</p>
+            <!-- <div class="add-item-container" board="todo">
+                <div class="input-section todo-section">
+                  <input class="input-field todo-input" type="text" placeholder="Start typing to create an draft item">
+                  <button class="create-task-btn" board="todo">+</button>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="board">
+            <div class="title-heading">
+                <div class="head">
+                    <div class="circle"></div>
+                    <h3>Done</h3>
+                </div>
+                <div class="counter done-count">3</div>
+            </div>
+            <p class="task" draggable="true">Task 1</p>
+            <p class="task" draggable="true">Task 2</p>
+            <p class="task" draggable="true">Task 3</p>
+            <!-- <div class="add-item-container" board="todo">
+                <div class="input-section todo-section">
+                  <input class="input-field todo-input" type="text" placeholder="Start typing to create an draft item">
+                  <button class="create-task-btn" board="todo">+</button>
+                </div>
+            </div> -->
+        </div>
+        <div class="plus-board">
+            <div class="plus">+</div>
+        </div>
+    </section>
+    <script src="kanban.js"></script>
+</body>
+</html>
